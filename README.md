@@ -8,7 +8,7 @@ A complete 9-DOF (Degrees of Freedom) orientation tracking system built in MATLA
 
 The filter follows the standard Aerospace / Robotics North-East-Down (NED) body frame reference convention.
 
-![Aircraft Body Reference Frame](images/aircraft_body_axes.png)
+![Aircraft Body Reference Frame](image.png)
 
 ### Axis Definitions
 * **X-Axis (Longitudinal / Forward - Red):** Measures Roll ($\phi$) about the forward nose axis.
@@ -21,7 +21,7 @@ The filter follows the standard Aerospace / Robotics North-East-Down (NED) body 
 
 The diagram below details the 3D axis alignment, angular rate vectors, and Earth's magnetic field vector ($M_E$) mapped onto the MPU9250 breakout board containing the MPU6500 (Accel + Gyro) and AK8963 (Magnetometer).
 
-![MPU9250 9-Axis IMU Schematic](images/mpu9250_sensor_axes.png)
+![MPU9250 9-Axis IMU Schematic](MPU9050.png)
 
 * **Acceleration Units:** $\text{m/s}^2$
 * **Gyroscope Units:** $\text{deg/s}$
