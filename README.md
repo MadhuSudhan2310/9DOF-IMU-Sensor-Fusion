@@ -55,17 +55,3 @@ $$\theta_k = \alpha \cdot (\theta_{k-1} + g_y \cdot \Delta t) + (1 - \alpha) \cd
 $$\psi_k = \alpha \cdot (\psi_{k-1} + g_z \cdot \Delta t) + (1 - \alpha) \cdot \psi_{\text{mag}}$$
 
 *Where $\alpha = 0.98$, sampling period $\Delta t = 0.01\text{ s}$ (100 Hz), and $g_x, g_y, g_z$ represent angular velocity in degrees per second.*
-
----
-
-## Repository File Structure
-
-```text
-├── images/
-│   ├── aircraft_body_axes.png
-│   └── mpu9250_sensor_axes.png
-├── IMU_Filter_Model.slx
-├── load_data.m
-├── run_animation.m
-├── VIBDATA.CSV
-└── README.md
